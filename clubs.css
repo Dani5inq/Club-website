@@ -1,0 +1,463 @@
+body{
+    margin: 0;
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #004B5E;
+}
+.navigation{
+    width: 50%;
+    height: 45px;
+    
+}
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.jumbotron{
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    display: grid;
+    place-items: center;
+    background-color: orangered;
+}
+.club-name{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    font-size: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #004B5E;
+    
+}
+.club-name h1{
+    margin: 0 0;
+    /*text-shadow: 4px 4px 7px coral;*/
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 1900px;
+    border: 1px solid coral;
+    background-color: #004B5E;
+    margin-bottom: 1px;
+}
+.Main-one{
+    width: 80%;
+    height: 125px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Main-one h2{
+margin: 0 0;
+font-size: 40px;
+color: gold;
+}
+.Main-one p{
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.Main-one a{
+    padding: 2px;
+    color: white;
+    font-size: 15px;
+}
+.Main-two{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    /*border-bottom: 1px solid white;*/
+    
+
+}
+.Main-two .images{
+    height: 280px;
+    width: 400px;
+    border: 1px solid coral;
+}
+.Main-two img{
+    width: 400px;
+    height: 280px;
+}
+
+.Main-three{
+    width: 100%;
+    height: 200px;
+    background-color: #D3FACD;
+    margin-top: 0;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Main-three h1{
+    font-size: 30px;
+    color: orangered;
+    margin-top: 15px;
+    margin-bottom: 0;
+    
+}
+.Main-three p{
+    font-size: 18px;
+}
+.invitation{
+    /*border-bottom: 1px solid white;*/
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.invitation h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px 2px;
+    font-weight: 500px;
+    color: white;
+}
+.invitation-img{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid coral;
+    background-image: url(https://www.superiorwallpapers.com/3d-wallpapers/walk-with-the-bike-beautiful-sunset-landscape_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px;
+}
+.footer-nav{
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 45px ;
+    background-color: orangered;
+}
+
+
+@media only screen and (max-width: 450px) and (orientation: portrait) {
+    header{
+        width: 100%;
+    }
+    .navigation{
+        width: 100%;
+    }
+   
+    .Main-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        height: 100%;
+    }
+
+    .Main-one{
+        height: 250px;
+        margin: 0 auto;
+        width: 360px;
+        line-height: 45px;
+    }
+    .Main-two .images{
+        width: 380px;
+        height: 275px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+
+    .Main-two{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Main-two img{
+        width: 380px;
+        height: 275px;
+    }
+    .Main-three{
+        height: 280px;
+        width: 380px;
+    }
+
+}
+
+@media only screen and (max-width: 380px) and (orientation: portrait) {
+    .Main-two{
+        width: 370px;
+    }
+
+    .Main-two .images{
+        width: 350px;
+        height: 255px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+
+    .Main-two img{
+        width: 350px;
+        height: 255px;
+    }
+
+    .Main-three{
+        height: 280px;
+        width: 360px;
+        border: 1px solid black;
+    }
+
+   /* .invitation-img{
+        border: 1px solid black;
+    width: 375px;
+    height: 600px;
+    }*/
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px)  {
+    header{
+        width: 100%;
+    }
+    .navigation{
+        width: 100%;
+    }
+
+    .Main-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        height: 100%;
+    }
+
+    .Main-one{
+        height: 200px;
+        margin: 0 auto;
+        width: 95%;
+        line-height: 45px;
+        margin-bottom: 5px;
+    }
+
+    .Main-two{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Main-two .images{
+        width: 450px;
+        height: 280px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+
+    .Main-two img{
+        width: 100%;
+    }
+
+    .Main-three{
+        height: 280px;
+        width: 525px;
+        border: 1px solid black;
+        
+    }
+
+}
+
+@media only screen and (min-width: 720px) and (max-width: 915px) and (orientation: portrait) {
+    header{
+        width: 100%;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .Main-two{
+        height: 300px;
+        width: 820px;
+    }
+
+    .Main-two .images{
+        width: 460px;
+        height: 280px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+
+    .Main-two img{
+        width: 100%;
+    }
+
+    .main{
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+    .Main-two{
+        height: 300px;
+        width: 100%;
+    }
+
+    .Main-two .images{
+        width: 460px;
+        height: 280px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+
+    .Main-two img{
+        width: 100%;
+    }
+
+    .main{
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) and (orientation: landscape) {
+    .Main-one{
+        height: 180px;
+        margin: 0 auto;
+        width: 660px;
+    }
+    .Main-two{
+        height: 300px;
+        width: 99%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Main-two .images{
+        width: 460px;
+        height: 220px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+    .Main-two img{
+        width: 100%;
+        height: 220px;
+    }
+
+    .main{
+        height: 100%;
+    }
+    .Main-three{
+        width: 98%;
+    }
+
+}
+@media only screen and (min-width: 800px) and (max-width: 900px) and (orientation: landscape) {
+    .Main-one{
+        height: 180px;
+        margin: 0 auto;
+        width: 660px;
+    }
+    .Main-two{
+        height: 300px;
+        width: 99%;
+    }
+
+    .Main-two .images{
+        width: 460px;
+        height: 220px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+    .Main-two img{
+        width: 100%;
+        height: 220px;
+    }
+
+    .main{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 950px) and (orientation: landscape) {
+    .Main-one{
+        height: 180px;
+        margin: 0 auto;
+        width: 660px;
+    }
+    .Main-two{
+        height: 300px;
+        width: 99%;
+    }
+
+    .Main-two .images{
+        width: 460px;
+        height: 220px;
+        margin-top: 0;
+        border: 2px solid coral;
+    }
+    .Main-two img{
+        width: 100%;
+        height: 220px;
+    }
+
+    .main{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 950px){
+    .Main-two{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 300px){
+    header{
+        width: 100%;
+    }
+    .nav{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Main-two {
+        width: 99%;
+    }
+    .Main-two .images{
+        width: 99%;
+    }
+    .Main-two img{
+        width: 100%
+    }
+    .Main-three{
+        width: 96%;
+        height: 400px;
+    }
+   
+}
+
+@media only screen and (max-width: 667px) {
+
+}
+
+
+
+
+
